@@ -75,7 +75,7 @@ const EidGreetingScene = () => {
           </button>
           <button
             className="flex text-xs sm:text-sm md:text-lg gap-2 hover:cursor-pointer"
-            onClick={() => navigate(-1)}
+            onClick={() => navigate("/name")}
           >
             تغيير الاسم
             <CircleArrowLeft
