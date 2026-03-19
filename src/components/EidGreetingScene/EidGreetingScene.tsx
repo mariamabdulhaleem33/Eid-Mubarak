@@ -33,6 +33,7 @@ const EidGreetingScene = () => {
     <div className="absolute inset-0 w-full h-full flex items-center justify-center text-white">
       <StarsBackground />
       <motion.img
+        loading="lazy"
         initial={{ scale: 0.9, opacity: 0, y: 40 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         transition={{ duration: 0.9, ease: "easeOut" }}
@@ -77,7 +78,10 @@ const EidGreetingScene = () => {
             onClick={() => navigate(-1)}
           >
             تغيير الاسم
-            <CircleArrowLeft className="text-xs sm:text-sm md:text-lg" color="teal" />
+            <CircleArrowLeft
+              className="text-xs sm:text-sm md:text-lg"
+              color="teal"
+            />
           </button>
         </div>
 
