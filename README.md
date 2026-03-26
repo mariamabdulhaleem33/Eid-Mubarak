@@ -26,7 +26,7 @@ This project focuses on **user experience, animations, and emotional design**, w
 -  Personalized Eid greeting using a name  
 -  Shareable link for each greeting  
 -  One-click copy link functionality  
-- 🔄 Ability to change the name.  
+-  Ability to change the name.  
 -  Festive animated effects (stars & transitions)  
 -  Information page about Eid al-Fitr  
 -  Fully responsive design  
@@ -42,7 +42,7 @@ This project focuses on **user experience, animations, and emotional design**, w
 
 ### Example
 
-https://eid-mubarak-three-ecru.vercel.app/greeting?name=Mariam
+[https://eid-mubarak-three-ecru.vercel.app/greeting?name=مريم](https://eid-mubarak-three-ecru.vercel.app/celebration?name=مريم)
 
 If no name is provided, a default Eid greeting is displayed.
 
