@@ -1,6 +1,6 @@
 # 🌙 Eid Mubarak – Personalized Eid Greeting Website
 
-![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![React](https://img.shields.io/badge/React-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-UI-blue?logo=tailwindcss)
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animation-black?logo=framer)
