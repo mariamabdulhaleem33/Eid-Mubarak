@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# 🌙 Eid Mubarak – Personalized Eid Greeting Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-UI-blue?logo=tailwindcss)
+![Status](https://img.shields.io/badge/Status-Live-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Currently, two official plugins are available:
+🔗 **Live Demo:**  
+https://eid-mubarak-three-ecru.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Project Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Eid Mubarak** is a small creative web project built to spread joy during Eid al-Fitr.  
+It allows users to create **personalized Eid greetings** by name and share them through a unique link.
 
-## Expanding the ESLint configuration
+Each shared link opens a greeting **already customized** for the recipient — making the message feel more personal and heartfelt.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project focuses on **user experience, smooth animations, and emotional design**, while keeping the implementation simple and clean.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🎉 Features
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 📝 Personalized Eid greeting using a name  
+- 🔗 Shareable link for each greeting  
+- 📋 One-click copy link functionality  
+- 🔄 Ability to change the name and regenerate the greeting  
+- ⭐ Festive animated effects (stars & transitions)  
+- 🌙 Information page about Eid al-Fitr  
+- 📱 Fully responsive design  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 How It Works
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- The user enters a name
+- The name is stored in the URL as a **query parameter**
+- The greeting page reads the name from the URL
+- A personalized message is rendered dynamically
+
+### Example
+
+https://eid-mubarak-three-ecru.vercel.app/greeting?name=Mariam
+
+If no name is provided, a default Eid greeting is displayed.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – UI & component structure  
+- **Vite** – Fast development environment  
+- **Tailwind CSS** – Styling & responsive layout  
+- **React Router** – Page routing & navigation  
+- **Framer Motion** – Animations & transitions  
+- **Mock API / JSON** – Dynamic greeting messages  
+
+---
+
+👩‍💻 Author
+
+Built with 🤍 to spread Eid happiness.
+If you liked this project, feel free to ⭐ the repository or share it.
+
+---
+
+🌙 Eid Mubarak
+
+May this Eid bring peace, joy, and warmth to you and your loved ones
+
+
+
