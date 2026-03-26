@@ -3,38 +3,37 @@
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-UI-blue?logo=tailwindcss)
-![Status](https://img.shields.io/badge/Status-Live-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animation-black?logo=framer)
 
 🔗 **Live Demo:**  
 https://eid-mubarak-three-ecru.vercel.app/
 
 ---
 
-## ✨ Project Description
+##  Project Description
 
-**Eid Mubarak** is a small creative web project built to spread joy during Eid al-Fitr.  
+**Eid Mubarak** is a small creative web project built to spread joy during Eid.  
 It allows users to create **personalized Eid greetings** by name and share them through a unique link.
 
 Each shared link opens a greeting **already customized** for the recipient — making the message feel more personal and heartfelt.
 
-This project focuses on **user experience, smooth animations, and emotional design**, while keeping the implementation simple and clean.
+This project focuses on **user experience, animations, and emotional design**, while keeping the implementation simple and clean.
 
 ---
 
-## 🎉 Features
+##  Features
 
-- 📝 Personalized Eid greeting using a name  
-- 🔗 Shareable link for each greeting  
-- 📋 One-click copy link functionality  
-- 🔄 Ability to change the name and regenerate the greeting  
-- ⭐ Festive animated effects (stars & transitions)  
-- 🌙 Information page about Eid al-Fitr  
-- 📱 Fully responsive design  
+-  Personalized Eid greeting using a name  
+-  Shareable link for each greeting  
+-  One-click copy link functionality  
+- 🔄 Ability to change the name.  
+-  Festive animated effects (stars & transitions)  
+-  Information page about Eid al-Fitr  
+-  Fully responsive design  
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 - The user enters a name
 - The name is stored in the URL as a **query parameter**
@@ -49,7 +48,7 @@ If no name is provided, a default Eid greeting is displayed.
 
 ---
 
-## 🛠️ Tech Stack
+##  Technologies
 
 - **React** – UI & component structure  
 - **Vite** – Fast development environment  
@@ -60,9 +59,9 @@ If no name is provided, a default Eid greeting is displayed.
 
 ---
 
-👩‍💻 Author
+Author
 
-Built with 🤍 to spread Eid happiness.
+Built to spread Eid happiness.
 If you liked this project, feel free to ⭐ the repository or share it.
 
 ---
