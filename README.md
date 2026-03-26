@@ -59,9 +59,9 @@ If no name is provided, a default Eid greeting is displayed.
 
 ---
 
-Author
+## Author
 
-Built to spread Eid happiness.
+Built by ***Mariam Abdulhaleem*** to spread Eid happiness.
 If you liked this project, feel free to ⭐ the repository or share it.
 
 ---
